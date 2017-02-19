@@ -1,9 +1,15 @@
 {
   "name": "knowbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A slackbot that knows everything!",
   "main": "app.js",
-  "scripts": {},
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/rocnick/knowbot.git"
+  },
+  "scripts": {
+    "start": "node ."
+  },
   "author": "Nick Snyder",
   "license": "MIT",
   "dependencies": {
