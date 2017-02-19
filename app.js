@@ -1,13 +1,9 @@
-var Bot = require('slackbots');
+var slackbots = require('slackbots');
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('standups.db');
 
 // create a bot
-var settings = {
-    token: 'GENERIC TOKEN',
-    name: 'knowbot'
-};
-var bot = new Bot(settings);
+var bot = new slackbots(require('./settings'));
 
 bot.on('start', function() {
     // Ensure the database is here and available
