@@ -1,6 +1,6 @@
 {
   "name": "knowbot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A slackbot that knows everything!",
   "main": "app.js",
   "repository" : {
