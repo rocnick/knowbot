@@ -4,7 +4,7 @@ var db = new sqlite3.Database('standups.db');
 
 // create a bot
 var settings = {
-    token: 'xoxb-143530506946-1BAiy4kVShw6BibbkID49cBb',
+    token: 'GENERIC TOKEN',
     name: 'knowbot'
 };
 var bot = new Bot(settings);
